@@ -1,0 +1,80 @@
+[03-Sep-2016 14:03:47 UTC] PHP Notice:  Undefined index: name in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 61
+[03-Sep-2016 14:03:47 UTC] PHP Stack trace:
+[03-Sep-2016 14:03:47 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:03:47 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 62
+[03-Sep-2016 14:03:47 UTC] PHP Stack trace:
+[03-Sep-2016 14:03:47 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:03:47 UTC] PHP Notice:  Undefined index: email in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 68
+[03-Sep-2016 14:03:47 UTC] PHP Stack trace:
+[03-Sep-2016 14:03:47 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:03:47 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 69
+[03-Sep-2016 14:03:47 UTC] PHP Stack trace:
+[03-Sep-2016 14:03:47 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:03:47 UTC] PHP Notice:  Undefined index: senha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 75
+[03-Sep-2016 14:03:47 UTC] PHP Stack trace:
+[03-Sep-2016 14:03:47 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:03:47 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 76
+[03-Sep-2016 14:03:47 UTC] PHP Stack trace:
+[03-Sep-2016 14:03:47 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:03:47 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 83
+[03-Sep-2016 14:03:47 UTC] PHP Stack trace:
+[03-Sep-2016 14:03:47 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:03:47 UTC] PHP Notice:  Undefined variable: result in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 93
+[03-Sep-2016 14:03:47 UTC] PHP Stack trace:
+[03-Sep-2016 14:03:47 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:24 UTC] PHP Notice:  Undefined index: name in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 61
+[03-Sep-2016 14:04:24 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:24 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:24 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 62
+[03-Sep-2016 14:04:24 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:24 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:24 UTC] PHP Notice:  Undefined index: email in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 68
+[03-Sep-2016 14:04:24 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:24 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:24 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 69
+[03-Sep-2016 14:04:24 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:24 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:24 UTC] PHP Notice:  Undefined index: senha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 75
+[03-Sep-2016 14:04:24 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:24 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:24 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 76
+[03-Sep-2016 14:04:24 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:24 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:24 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 83
+[03-Sep-2016 14:04:24 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:24 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:24 UTC] PHP Notice:  Undefined variable: result in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 93
+[03-Sep-2016 14:04:24 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:24 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:40 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 31
+[03-Sep-2016 14:04:40 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:40 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:40 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 31
+[03-Sep-2016 14:04:40 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:40 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:40 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 31
+[03-Sep-2016 14:04:40 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:40 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:40 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 31
+[03-Sep-2016 14:04:40 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:40 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:40 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 62
+[03-Sep-2016 14:04:40 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:40 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:40 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 69
+[03-Sep-2016 14:04:40 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:40 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:40 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 76
+[03-Sep-2016 14:04:40 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:40 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[03-Sep-2016 14:04:40 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 83
+[03-Sep-2016 14:04:40 UTC] PHP Stack trace:
+[03-Sep-2016 14:04:40 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php:0
+[04-Sep-2016 10:05:10 UTC] PHP Notice:  Undefined index: name in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 61
+[04-Sep-2016 10:05:10 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 62
+[04-Sep-2016 10:05:10 UTC] PHP Notice:  Undefined index: email in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 68
+[04-Sep-2016 10:05:10 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 69
+[04-Sep-2016 10:05:10 UTC] PHP Notice:  Undefined index: senha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 75
+[04-Sep-2016 10:05:10 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 76
+[04-Sep-2016 10:05:10 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 83
+[04-Sep-2016 10:05:10 UTC] PHP Notice:  Undefined variable: result in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor/index.php on line 93

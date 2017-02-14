@@ -1,0 +1,174 @@
+[03-Sep-2016 12:44:57 UTC] PHP Notice:  Undefined index: name in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 61
+[03-Sep-2016 12:44:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:44:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:44:57 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 62
+[03-Sep-2016 12:44:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:44:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:44:57 UTC] PHP Notice:  Undefined index: email in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 68
+[03-Sep-2016 12:44:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:44:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:44:57 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 69
+[03-Sep-2016 12:44:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:44:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:44:57 UTC] PHP Notice:  Undefined index: message in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 75
+[03-Sep-2016 12:44:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:44:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:44:57 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 76
+[03-Sep-2016 12:44:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:44:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:44:57 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 83
+[03-Sep-2016 12:44:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:44:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:44:57 UTC] PHP Notice:  Undefined variable: result in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 93
+[03-Sep-2016 12:44:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:44:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:45:14 UTC] PHP Notice:  Undefined variable: senha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 11
+[03-Sep-2016 12:45:14 UTC] PHP Stack trace:
+[03-Sep-2016 12:45:14 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:45:14 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 31
+[03-Sep-2016 12:45:14 UTC] PHP Stack trace:
+[03-Sep-2016 12:45:14 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:45:14 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 31
+[03-Sep-2016 12:45:14 UTC] PHP Stack trace:
+[03-Sep-2016 12:45:14 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:45:14 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 31
+[03-Sep-2016 12:45:14 UTC] PHP Stack trace:
+[03-Sep-2016 12:45:14 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:45:14 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 31
+[03-Sep-2016 12:45:14 UTC] PHP Stack trace:
+[03-Sep-2016 12:45:14 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:45:15 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 62
+[03-Sep-2016 12:45:15 UTC] PHP Stack trace:
+[03-Sep-2016 12:45:15 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:45:15 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 69
+[03-Sep-2016 12:45:15 UTC] PHP Stack trace:
+[03-Sep-2016 12:45:15 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:45:15 UTC] PHP Notice:  Undefined index: message in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 75
+[03-Sep-2016 12:45:15 UTC] PHP Stack trace:
+[03-Sep-2016 12:45:15 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:45:15 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 76
+[03-Sep-2016 12:45:15 UTC] PHP Stack trace:
+[03-Sep-2016 12:45:15 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:45:15 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 83
+[03-Sep-2016 12:45:15 UTC] PHP Stack trace:
+[03-Sep-2016 12:45:15 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:46:50 UTC] PHP Notice:  Undefined index: name in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 61
+[03-Sep-2016 12:46:50 UTC] PHP Stack trace:
+[03-Sep-2016 12:46:50 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:46:50 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 62
+[03-Sep-2016 12:46:50 UTC] PHP Stack trace:
+[03-Sep-2016 12:46:50 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:46:50 UTC] PHP Notice:  Undefined index: email in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 68
+[03-Sep-2016 12:46:50 UTC] PHP Stack trace:
+[03-Sep-2016 12:46:50 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:46:50 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 69
+[03-Sep-2016 12:46:50 UTC] PHP Stack trace:
+[03-Sep-2016 12:46:50 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:46:50 UTC] PHP Notice:  Undefined index: message in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 75
+[03-Sep-2016 12:46:50 UTC] PHP Stack trace:
+[03-Sep-2016 12:46:50 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:46:50 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 76
+[03-Sep-2016 12:46:50 UTC] PHP Stack trace:
+[03-Sep-2016 12:46:50 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:46:50 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 83
+[03-Sep-2016 12:46:50 UTC] PHP Stack trace:
+[03-Sep-2016 12:46:50 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:46:50 UTC] PHP Notice:  Undefined variable: result in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 93
+[03-Sep-2016 12:46:50 UTC] PHP Stack trace:
+[03-Sep-2016 12:46:50 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:48:57 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 31
+[03-Sep-2016 12:48:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:48:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:48:57 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 31
+[03-Sep-2016 12:48:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:48:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:48:57 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 31
+[03-Sep-2016 12:48:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:48:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:48:57 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 31
+[03-Sep-2016 12:48:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:48:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:48:57 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 62
+[03-Sep-2016 12:48:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:48:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:48:57 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 69
+[03-Sep-2016 12:48:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:48:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:48:57 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 76
+[03-Sep-2016 12:48:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:48:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 12:48:57 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 83
+[03-Sep-2016 12:48:57 UTC] PHP Stack trace:
+[03-Sep-2016 12:48:57 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:46:42 UTC] PHP Notice:  Undefined index: name in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 61
+[03-Sep-2016 13:46:42 UTC] PHP Stack trace:
+[03-Sep-2016 13:46:42 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:46:42 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 62
+[03-Sep-2016 13:46:42 UTC] PHP Stack trace:
+[03-Sep-2016 13:46:42 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:46:42 UTC] PHP Notice:  Undefined index: email in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 68
+[03-Sep-2016 13:46:42 UTC] PHP Stack trace:
+[03-Sep-2016 13:46:42 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:46:42 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 69
+[03-Sep-2016 13:46:42 UTC] PHP Stack trace:
+[03-Sep-2016 13:46:42 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:46:42 UTC] PHP Notice:  Undefined index: senha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 75
+[03-Sep-2016 13:46:42 UTC] PHP Stack trace:
+[03-Sep-2016 13:46:42 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:46:42 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 76
+[03-Sep-2016 13:46:42 UTC] PHP Stack trace:
+[03-Sep-2016 13:46:42 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:46:42 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 83
+[03-Sep-2016 13:46:42 UTC] PHP Stack trace:
+[03-Sep-2016 13:46:42 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:46:42 UTC] PHP Notice:  Undefined variable: result in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 93
+[03-Sep-2016 13:46:42 UTC] PHP Stack trace:
+[03-Sep-2016 13:46:42 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:51:52 UTC] PHP Notice:  Undefined index: name in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 61
+[03-Sep-2016 13:51:52 UTC] PHP Stack trace:
+[03-Sep-2016 13:51:52 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:51:52 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 62
+[03-Sep-2016 13:51:52 UTC] PHP Stack trace:
+[03-Sep-2016 13:51:52 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:51:52 UTC] PHP Notice:  Undefined index: email in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 68
+[03-Sep-2016 13:51:52 UTC] PHP Stack trace:
+[03-Sep-2016 13:51:52 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:51:52 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 69
+[03-Sep-2016 13:51:52 UTC] PHP Stack trace:
+[03-Sep-2016 13:51:52 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:51:52 UTC] PHP Notice:  Undefined index: senha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 75
+[03-Sep-2016 13:51:52 UTC] PHP Stack trace:
+[03-Sep-2016 13:51:52 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:51:52 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 76
+[03-Sep-2016 13:51:52 UTC] PHP Stack trace:
+[03-Sep-2016 13:51:52 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:51:52 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 83
+[03-Sep-2016 13:51:52 UTC] PHP Stack trace:
+[03-Sep-2016 13:51:52 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:51:52 UTC] PHP Notice:  Undefined variable: result in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 93
+[03-Sep-2016 13:51:52 UTC] PHP Stack trace:
+[03-Sep-2016 13:51:52 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:58:36 UTC] PHP Notice:  Undefined index: name in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 61
+[03-Sep-2016 13:58:36 UTC] PHP Stack trace:
+[03-Sep-2016 13:58:36 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:58:36 UTC] PHP Notice:  Undefined variable: errName in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 62
+[03-Sep-2016 13:58:36 UTC] PHP Stack trace:
+[03-Sep-2016 13:58:36 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:58:36 UTC] PHP Notice:  Undefined index: email in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 68
+[03-Sep-2016 13:58:36 UTC] PHP Stack trace:
+[03-Sep-2016 13:58:36 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:58:36 UTC] PHP Notice:  Undefined variable: errEmail in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 69
+[03-Sep-2016 13:58:36 UTC] PHP Stack trace:
+[03-Sep-2016 13:58:36 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:58:36 UTC] PHP Notice:  Undefined index: senha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 75
+[03-Sep-2016 13:58:36 UTC] PHP Stack trace:
+[03-Sep-2016 13:58:36 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:58:36 UTC] PHP Notice:  Undefined variable: errSenha in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 76
+[03-Sep-2016 13:58:36 UTC] PHP Stack trace:
+[03-Sep-2016 13:58:36 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:58:36 UTC] PHP Notice:  Undefined variable: errHuman in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 83
+[03-Sep-2016 13:58:36 UTC] PHP Stack trace:
+[03-Sep-2016 13:58:36 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0
+[03-Sep-2016 13:58:36 UTC] PHP Notice:  Undefined variable: result in /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php on line 93
+[03-Sep-2016 13:58:36 UTC] PHP Stack trace:
+[03-Sep-2016 13:58:36 UTC] PHP   1. {main}() /home/taciovictor/public_html/premium/assets/admin/plugins/madaiscontato/recuperar_senha/index.php:0

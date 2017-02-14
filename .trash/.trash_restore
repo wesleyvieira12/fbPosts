@@ -1,0 +1,4 @@
+cgi-bin=/home/taciovictor/public_html/cgi-bin
+404.shtml=/home/taciovictor/public_html/404.shtml
+home.html=/home/taciovictor/public_html/home.html
+layout-styles.css=/home/taciovictor/public_html/layout-styles.css
