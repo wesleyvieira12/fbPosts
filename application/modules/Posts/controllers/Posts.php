@@ -217,7 +217,7 @@ class Posts extends MX_Controller {
 					"message"     => post("post_message")
 				);
 				break;
-				}
+		}
 
 				if(post('time_post') == ""){
 					$json[] = array(
@@ -275,7 +275,9 @@ class Posts extends MX_Controller {
 					}
 
 					$time_post = strtotime(post('time_post').":00");
-					$time_now  = strtotime(NOW) + 60;
+
+					//BUSCAR DEPLAY
+					$time_now  = strtotime(NOW) + DEFAULT_DEPLAY;
 					if($time_post < $time_now){
 						$time_post = $time_now;
 					}
@@ -306,19 +308,20 @@ class Posts extends MX_Controller {
 					}
 			
 					
-					if(post('post_next')){
+					if(post('repeat_post')){
 
 						$id_post_next = post('post_next');
-						$post_next = $this->db->query("select * from tbl_save where id = $id_post_next");
-						foreach ($post_next as $value) {
+						 $post_next = $this->db->query("select * from tbl_save where id = '{$id_post_next}' LIMIT 1");
+						 $value = $post_next->row_array();
+						//foreach ($post_next as $value) {
 							$datax = array(
-								"type"        => $value->type,
-								"url"         => $value->url,
-								"message"     => $value->message,
-								"title"       => $value->title,
-								"description" => $value->description,
-								"image"       => $value->image,
-								"caption"     => $value->caption
+								"type"        => $value['type'],
+								"url"         => $value['url'],
+								"message"     => $value['message'],
+								"title"       => $value['title'],
+								"description" => $value['description'],
+								"image"       => $value['image'],
+								"caption"     => $value['caption']
 								);
 										
 							if(post('delete_complete')){
@@ -347,24 +350,29 @@ class Posts extends MX_Controller {
 										$datax["access_token"] = "";
 										$datax["account"]      = $valuex[3];
 									}
-									$datax["uid"]          =$value->uid;
+									$datax["uid"]          =$value['uid'];
 									$datax["deplay"]       = $deplay;
 									$datax["changed"]      = NOW;
 									$datax["created"]      = NOW;
-									$repeat = 1;
-									//for($i = 0, $i<$repeat,$i++){
-										$t = ($deplay/60)*($i+1);
-										$datax["time_post"] = strtotime("+0 week 0 days 0 hours ".$t." seconds",$data["time_post"]);
-										$this->db->insert(POSTS_TB, $datax);
-									//}
+									
+
 									
 								}
+								$i=0;
+								$repeat = (int)post('repeat');
+
+									while($i<$repeat){
+										$t = $deplay*($i+1);
+										$datax["time_post"] = date("Y-m-d H:i:s",strtotime($data["time_post"])+$t);
+										$this->db->insert(POSTS_TB, $datax);
+										$i++;
+									}
 
 							}
-							break;
-						}
+							//break;
+						//}
 					}
-				
+				}
 					
 			if($count != 0){
 				$json[] = array(
@@ -378,7 +386,7 @@ class Posts extends MX_Controller {
 				$json["st"] = "error";
 			}
 
-		}
+		
 
 		printf(json_encode($json));
 	}

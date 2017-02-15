@@ -87,7 +87,8 @@
            echo "'".date('Y-m-d H:i')."'";
         }else{
             foreach ($ultimo_post as $value) {
-                $time_post = date('Y-m-d H:i', strtotime($value->time_post));
+                //BUSCAR DEPLAY
+                $time_post = date('Y-m-d H:i', strtotime($value->time_post)+DEFAULT_DEPLAY);
                 $time_now  = date('Y-m-d H:i', strtotime(NOW));
                 if($time_post<$time_now){
                    echo "'".$time_now."'";

@@ -118,32 +118,37 @@
                                             <label class="head-title col-md-12 text-left p0 fix-height-label"><i class="fa fa-clock-o"></i> <?=l('slug-time-post')?></label>
                                             <input type="text" class="form-control date_range" readonly="true" name="time_post"/>
                                         </div>
+                                        
 
                                         <div class="form-group col-md-6">
-                                            <label class="head-title col-md-12 text-left p0 fix-height-label"><i class="fa fa-bullseye"></i> <?=l('slug-delay')?></label>
+                                            <label class="head-title col-md-12 text-left p0 fix-height-label"><i class="fa fa-bullseye"></i>Variação / Atraso</label>
                                             <select class="form-control" name="deplay">
-                                                <?php foreach (deplay_time() as $value) {?>
-                                                    <?php if(MINIMUM_DEPLAY <= $value){?>
-                                                    <option value="<?=$value?>" <?=(DEFAULT_DEPLAY == $value)?"selected":""?>><?=$value?> <?=l('slug-seconds')?></option>
-                                                    <?php }?>
-                                                <?php }?>
-                                            </select>
+                                            <?php foreach (deplay_time() as $value) {
+                                                if(MINIMUM_DEPLAY<=$value){                                            
+                                                    if($value==1800){
+                                            ?>
+
+                                            <option value="<?= $value?>" <?= (DEFAULT_DEPLAY == $value)? "selected": ""?>><?= $value/60?> minutos</option>
+                                            <?php }else{ ?>
+                                            <option value="<?= $value?>" <?= (DEFAULT_DEPLAY == $value)? "selected": ""?>><?= $value/3600?> horas</option>
+                                                <?php } } }?>
+                                                </select>
                                         </div>
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-md-12">
+                                        <div class="col-md-6">
                                             <input type="checkbox" class="icheck" name="random_post" value="1" />
                                             <label class="fix-height-label"> &nbsp; <?=l('slug-random-post')?></label>
                                             <br/>
                                             <input type="checkbox" class="icheck" name="add_time_post" value="1" />
-                                            <label class="fix-height-label"> &nbsp; <?=l('slug-add-time-post')?></label>
+                                            <label class="fix-height-label"> &nbsp; Descanso após envio</label>
                                             <br/>
                                             <input type="checkbox" class="icheck" name="delete_complete" value="1" />
                                             <label class="fix-height-label"> &nbsp; <?=l('slug-delete-after-finished')?></label>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <!--<div class="row">
                                         <div class="line mt10 mb0"></div>
                                         <div class="form-group col-md-12 mt10 mb0">
                                             <input type="checkbox" class="icheck" name="auto_pause" value="1" />
@@ -169,7 +174,16 @@
                                             </div>
                                         </div>
                                     </div>
+                                     -->  
+                                     
+                                    
+                                    
 
+                                     <input type="hidden" name="auto_pause" value="0" /> 
+                                     <input type="hidden" name="pause_post" value="" /> 
+                                     <input type="hidden" name="pause_time" value="" /> 
+                                     
+                                     
                                     <div class="row">
                                         <div class="line mt0"></div>
                                         <div class="form-group col-md-12 mt10">
@@ -185,10 +199,22 @@
                                                     
                                                     </select>
                                                 </div>
-                                                <!--<div class="col-md-6">
-                                                    <label class="head-title col-md-12 text-left p0 fix-height-label"><?=l('slug-end-day')?></label>
-                                                    <input type="text" class="form-control date_range_only_day" readonly="true" name="repeat_end"/>
-                                                </div>-->
+                                                <div class="col-md-6">
+                                                    <label class="head-title col-md-12 text-left p0 fix-height-label">Quantas vezes</label>
+                                                     <select class="form-control" name="repeat">
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                        <option value="6">6</option>
+                                                        <option value="7">7</option>
+                                                        <option value="8">8</option>
+                                                        <option value="9">9</option>
+                                                        <option value="10">10</option>
+                                                     </select>
+                                                    
+                                                </div>
                                             </div>
                                         </div>
                                     </div>      

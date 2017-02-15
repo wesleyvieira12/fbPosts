@@ -174,14 +174,10 @@
                         <?php }?>
                     </select>
                 </div>
-                <div class="form-group">
-                    <label><?=l('slug-minimum-delay')?></label>
-                    <select class="form-control" name="minimum_deplay">
-                        <?php foreach (deplay_time() as $i) {?>
-                        <option value="<?=$i?>" <?=(!empty($result) && $result->minimum_deplay == $i)?"selected":""?> ><?=$i?> <?=l('slug-seconds')?></option>
-                        <?php }?>
-                    </select>
-                </div>
+                
+                <input class="form-control" type="hidden" name="minimum_deplay" value="1800">
+                       
+                
             </div>
             <div class="box-footer">
                 <button type="submit" class="btn btn-primary"><?=l('slug-update')?></button>

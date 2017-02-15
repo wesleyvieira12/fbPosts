@@ -42,7 +42,7 @@ class Home extends MX_Controller {
 			'profiles'     => $result,
 			'list_groups'  => $getListGroups,
 			'save_post'    => $this->model->fetch("*", SAVE_TB, "uid = '".session("uid")."'", "created", "desc"),
-			'ultimo_post'    => $this->model->fetch("*", POSTS_TB, "uid = '".session("uid")."'", "created", "desc")
+			'ultimo_post'    => $this->model->fetch("*", POSTS_TB, "uid = '".session("uid")."'", "id", "desc",-1,1)
 		);
 		$this->template->title(TITLE);
 		$this->template->build('index', $data);

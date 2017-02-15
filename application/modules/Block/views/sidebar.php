@@ -43,11 +43,7 @@
                     <i class="fa fa-user"></i> <span><?=l('slug-manage-user')?></span></i>
                 </a>
             </li>
-            <li class="treeview">
-                <a href="<?=PATH?>settings">
-                    <i class="fa fa-cogs"></i> <span><?=l('slug-settings')?></span></i>
-                </a>
-            </li>
+            
 			<li class="treeview">
                 <a href="http://campanhasfb.com.br/premium/assets/admin/plugins/madaiscontato/contato_desenvolvedor" class=" open-image fancybox.iframe">
                     <i class="fa fa-bug"></i> <span>Contato com desenvolvedor</span></i>

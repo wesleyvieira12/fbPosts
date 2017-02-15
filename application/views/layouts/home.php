@@ -31,17 +31,38 @@
         <script type="text/javascript">
             //.add(30, 'minutes')
         var time_current =<?php 
-    foreach ($ultimo_post as $value) {
-        $date = new DateTime($value->time_post);
-        echo  "'".$date->format('Y-m-d H:i')."'";
-        break;
-    }
+        if(empty($ultimo_post)){
+           echo "'".date('Y-m-d H:i')."'";
+        }else{
+            foreach ($ultimo_post as $value) {
+                $time_post = date('Y-m-d H:i', strtotime($value->time_post)+DEFAULT_DEPLAY);
+                $time_now  = date('Y-m-d H:i', strtotime(NOW));
+                if($time_post<$time_now){
+                   echo "'".$time_now."'";
+                }else{
+                   echo "'".$time_post."'";
+                }
+                break;
+            }
+        }
 ?>;
-        var time_max =<?php 
-    foreach ($ultimo_post as $value) {
-        echo  "'".date('Y-m-d H:i', strtotime("+60 days",strtotime($value->time_post)))."'";
-        break;
+        var time_max =
+        <?php 
+        if(empty($ultimo_post)){
+            echo  "'".date('Y-m-d H:i', strtotime("+60 days",strtotime(date('Y-m-d H:i'))))."'";
+        }else{
+            foreach ($ultimo_post as $value) {
+                $time_post = date('Y-m-d H:i', strtotime($value->time_post));
+                $time_now  = date('Y-m-d H:i', strtotime(NOW));
+                if($time_post<$time_now){
+                    echo  "'".date('Y-m-d H:i', strtotime("+60 days",strtotime($time_now)))."'";
+                }else{
+                    echo  "'".date('Y-m-d H:i', strtotime("+60 days",strtotime($time_post)))."'";
+                }
+                
+                break;
     }
+}
 ?>;
         $('.date_range').appendDtpicker({
             "current": time_current,
