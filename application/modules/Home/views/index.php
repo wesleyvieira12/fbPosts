@@ -138,9 +138,6 @@
 
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <input type="checkbox" class="icheck" name="random_post" value="1" />
-                                            <label class="fix-height-label"> &nbsp; <?=l('slug-random-post')?></label>
-                                            <br/>
                                             <input type="checkbox" class="icheck" name="add_time_post" value="1" />
                                             <label class="fix-height-label"> &nbsp; Descanso após envio</label>
                                             <br/>

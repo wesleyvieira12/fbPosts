@@ -250,34 +250,13 @@ class Posts extends MX_Controller {
 				}else{
 					$count = 0;
 					$deplay = (int)post('deplay');
-					$list_deplay = array();
-					for ($i=0; $i < count($pages); $i++) { 
-						$list_deplay[] = $deplay*$i;
-					}
 
-					if(post('auto_pause')){
-						$pause = 0;
-						$count_deplay = 0;
-						for ($i=0; $i < count($list_deplay); $i++) { 
-							$item_deplay = 1;
-							if(post('pause_post') == $count_deplay){
-								$pause += post('pause_time')*60;
-								$count_deplay = 0;
-							}
-
-							$list_deplay[$i] += $pause;
-							$count_deplay++;
-						}
-					}
-
-					if(post('random_post')){
-						shuffle($list_deplay);
-					}
+					
 
 					$time_post = strtotime(post('time_post').":00");
 
 					//BUSCAR DEPLAY
-					$time_now  = strtotime(NOW) + DEFAULT_DEPLAY;
+					$time_now  = strtotime(NOW);
 					if($time_post < $time_now){
 						$time_post = $time_now;
 					}
@@ -299,7 +278,7 @@ class Posts extends MX_Controller {
 							$data["deplay"]       = $deplay;
 							$data["changed"]      = NOW;
 							$data["created"]      = NOW;
-							$data["time_post"]    = date("Y-m-d H:i:s", $time_post + $list_deplay[$key]);
+							$data["time_post"]    = date("Y-m-d H:i:s", $time_post);
 							
 
 							$this->db->insert(POSTS_TB, $data);
@@ -520,32 +499,35 @@ class Posts extends MX_Controller {
 	}
 
 	public function cronjob(){
+
+		
 		$spintax = new Spintax();
 		ini_set('max_execution_time', 300000);
+
 
 		define("TIMEPOST",date("Y-m-d H:i").":00");
 
 	 	$result = $this->db
 	    ->select('*')
 	    ->from(POSTS_TB)
-	    ->where('status != ', 0)
-	    ->where('status != ', 2)
+	    ->where('status !=',0)
+	    ->where('status !=',2)
 	    ->where('time_post <= ', NOW)
 	    ->get()->result();
-	    
+	    echo NOW;
+	   
 		if(!empty($result)){
+			 print_r($result);
 			foreach ($result as $key => $row) {
 				$delete       = $row->delete;
-				$repeat       = $row->repeat_post;
-				$repeat_time  = $row->repeat_time;
-				$repeat_end   = $row->repeat_end;
+				
 				$time_post    = $row->time_post;
 				$deplay       = $row->deplay;
 
-				$time_post          = strtotime($time_post) + $repeat_time;
+				$time_post          = strtotime($time_post) ;
 				$time_post_only_day = date("Y-m-d", $time_post);
 				$time_post_day      = strtotime($time_post_only_day);
-				$repeat_end         = strtotime($repeat_end);
+				
 
 				$row->url         = $spintax->process($row->url);
 				$row->message     = $spintax->process($row->message);
@@ -576,17 +558,14 @@ class Posts extends MX_Controller {
 									$row->access_token = $item->access_token;
 									$response = FB_POST($row);
 									if(!empty($response)){
-										if($repeat == 1 && $time_post_day < $repeat_end){
-											$this->db->update(POSTS_TB,array("status" => 3, 'time_post' => date("Y-m-d H:i:s", $time_post), 'result' => isset($response["id"])?$response["id"]:"", 'message_error' => isset($response["message"])?$response["message"]:""), "id = {$row->id}");
-											break;
-										}else{
+										
 											if($delete == 1){
 												$this->db->delete(POSTS_TB, "id = {$row->id}");
 											}else{
 												$this->db->update(POSTS_TB,array("status" => 2, 'result' => isset($response["id"])?$response["id"]:"", 'message_error' => isset($response["message"])?$response["message"]:""), "id = {$row->id}");
 											}
 											break;
-										}
+										
 									}
 								}
 							}
@@ -595,19 +574,17 @@ class Posts extends MX_Controller {
 				}else{
 					$response = FB_POST($row);
 					if(!empty($response)){
-						if($repeat == 1 && $time_post < $repeat_end){
-							$this->db->update(POSTS_TB,array("status" => 3, 'time_post' => date("Y-m-d H:i:s", $time_post), 'result' => isset($response["id"])?$response["id"]:"", 'message_error' => isset($response["message"])?$response["message"]:""), "id = {$row->id}");
-							break;
-						}else{
+						
 							if($delete == 1){
 								$this->db->delete(POSTS_TB, "id = {$row->id}");
 							}else{
 								$this->db->update(POSTS_TB,array("status" => 2, 'result' => isset($response["id"])?$response["id"]:"", 'message_error' => isset($response["message"])?$response["message"]:""), "id = {$row->id}");
 							}
 							break;
-						}
+						
 					}
-				}
+				}	
+				
 
 				if($key+1 != count($result)){
 					//sleep((int)$deplay);
